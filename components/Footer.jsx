@@ -1,14 +1,15 @@
 import React from 'react'
 import Image from 'next/image';
 import { FaGlobe, FaEnvelope, FaPhone, FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
-import logo from '../public/logo.jpg';
+import logo from '../public/Orato-logo.jpg';
 const Footer = () => {
   return (
       <footer className="bg-[#171723] text-white pt-8">
           <div className="container mx-auto flex flex-col items-center justify-center">
               {/* Logo */}
-              <div className="mb-4">
-                  <Image height={44} width={44} src={logo} alt="Logo" className="w-12 h-12" />
+              <div className="mb-4 flex flex-col justify-center items-center">
+                  <Image height={50} width={50} src={logo} alt="Logo" className="" />
+                  <span className="text-2xl font-bold text-white">Orato</span>
               </div>
 
               {/* Navigation Links */}
