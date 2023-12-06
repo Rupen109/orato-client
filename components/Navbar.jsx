@@ -120,7 +120,7 @@ import logo from "../public/Orato-logo.jpg"
 const navigation = [
     { name: "Dashboard", href: "/", current: true },
     { name: "Features", href: "/team", current: false },
-    { name: "Pricing", href: "/projects", current: false },
+    { name: "Pricing", href: "/pricing", current: false },
     { name: "Contact Us", href: "/calendar", current: false },
 ];
 
