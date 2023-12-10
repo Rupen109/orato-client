@@ -1,4 +1,3 @@
-// Use client is not necessary in Next.js
 "use client"
 import { useState } from "react";
 
